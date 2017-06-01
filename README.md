@@ -66,7 +66,8 @@ Note should be plain text - and shouldn’t allow for any scripting
   // Collect all the form data
       // Make sure to escape all form data using jquery .text() or some other method
   // Send an API call to an email service with the proper sender, subject, body, and sender's email
-
+    // Email contains link similar to before: [kiwicrate.com/thank-you-note?order=HX72by7802d]()
+    /*** This link will generate a page using a template like the email to the giftee ***/
 ```
 
 **\*\*The rest of the requirements have been considered in previous responses.**
