@@ -7,7 +7,7 @@
 
 ## Database Design
 
-All the information we need (names and emails) is accessible by querying our database using the Order_ID.
+Since we'll only have 1 thank you note per order, we can use the Order_ID as the Primary Key. All the information we need (names and emails) is accessible by querying our database using the Order_ID.
 
 ![Database Design](https://s14.postimg.org/6n1yjzxch/DB_Table.png)
 
