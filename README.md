@@ -37,7 +37,7 @@ All the information we need (names and emails) is accessible by querying our dat
 
 #### Thank You Page: allows giftee to customize thank you note to make it more personalized
 
-The link we send the giftee would contain the order number (e.g. kiwicrate.com/thankyou?order=00001). This allows us to access the relevant information (the gifter's and giftee's names and emails) to **pre-populate** the email with. There are some security concerns here as a user can simply increment the number and access other orders' thank you pages, so we should **hash** the order number so it would look more like kiwicrate.com/thankyou?order=HX72by7802d. By using this query parameter, we can have our server send back customized pages with pre-populated information using a templating engine.
+The link we send the giftee would contain the order number (e.g. [kiwicrate.com/thankyou?order=00001]()). This allows us to access the relevant information (the gifter's and giftee's names and emails) to **pre-populate** the email with. There are some security concerns here as a user can simply increment the number and access other orders' thank you pages, so we should **hash** the order number so it would look more like [kiwicrate.com/thankyou?order=HX72by7802d](). By using this query parameter, we can have our server send back customized pages with pre-populated information using a templating engine.
 
 #### Allow giftee to upload a photo or choose from pre-design templates
 
