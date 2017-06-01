@@ -101,4 +101,4 @@ On clicking the “Check it out” button, gifter should be taken to their “Th
 2) Consider storing a Nickname and/or a Relationship field for the Customer in the database. This way, we can personalize any messages/emails with “Uncle Joe” or “Grandma”.
 3) Option to upload a video. 
 4) Consider various customizable options for either a parent/caretaker sending the thank you email or the child sending the thank you (if old enough).
-  - This would include having database fields for either parent/caretaker or child email addresses.
+  * This would include having database fields for either parent/caretaker or child email addresses.
